@@ -108,7 +108,7 @@
 
 Если данные в коде будут меняться, нужно оповестить адаптер об этом
 ```java
-itemAdapter.notifyDateSetChanged();
+itemAdapter.notifyDataSetChanged();
 ```
 
 Для того чтобы элементы списка можно было свайпать нужно добавить ItemTouchHelper и привязать его к RecyclerView
