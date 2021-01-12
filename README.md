@@ -133,7 +133,7 @@ ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new ItemTouchHelper.Simple
         itemTouchHelper.attachToRecyclerView(recyclerView);
 ```
 
-# Часть 2. OnClickListener, SharedPreferences
+# Часть 2. OnClickListener, OnLongClickListener, SharedPreferences
 Чтобы элемент мог реагировать на нажатия, нужно чтобы он реализовывал метод onClick() интерфейса OnClickListener, который находится в классе View. Здесь я повесил интерфейс на созданный класс.
 ```java
 public MyClass implements View.OnClickListener {
